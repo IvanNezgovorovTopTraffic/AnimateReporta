@@ -19,9 +19,5 @@ let package = Package(
                 .product(name: "OneSignalFramework", package: "OneSignal-iOS-SDK")
             ]
         ),
-        .testTarget(
-            name: "PharaohGateTests",
-            dependencies: ["PharaohGate"]
-        ),
     ]
 )
